@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+
+	"name": "Web Locker",
+	"description": "Lock your websites and protect your social life",
+	"version": "1.0",
+
+	"permissions": [
+		"activeTab",
+		"storage"
+	],
+
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+
+	"options_page": "options.html"
+}

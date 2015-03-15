@@ -1,0 +1,34 @@
+<html>
+	<head>
+	<title> Options Page for Web Locker </title>
+	</head>
+	<body>
+	Pages Locked till now.<br>
+	<form id = "lockedSiteForm" action = "#">
+	<table>
+		<tr>
+			<td>
+				<input type = "Text" value = "" id = "newSite">
+			</td>
+			<td>
+				<button type = "submit">Add New Site</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<ul id = "lockedSitesBox"></ul>
+			</td>
+			<td>
+				<button id = "removeSites">Remove selected Sites</button>
+			</td>
+		</tr>
+	</table>
+	</form>	
+	Time for lock (in seconds) <input type = "text" id = "time"><br>
+	Change Password <input type = "password" id = "pwd">
+	<div id = "status"></div>
+	<button id = "save">Save</button>
+
+	<script src = "options.js"></script>
+	</body>
+</html>
